@@ -21,14 +21,14 @@ export default function FunThings() {
             {sqncr}
 
             <h3>AI Art</h3>
-            <p>This is mostly unrelated to me, but did you know you can make art by typing a prompt into certain online art tools? It's seriously incredible. My favorites two tools are</p>
+            <p>This is mostly unrelated to me, but did you know you can make art by typing a prompt into certain online art tools? It&apos;s seriously incredible. My favorites two tools are</p>
             <ul>
                 <li><a href='https://midjourney.com/'>Midjourney</a> (<a href="https://photos.google.com/album/AF1QipP0mZwrggdQzvTZrTX3pi5aKR1UCZnxYtDQhRLw">see my results</a>)</li>
             </ul><p className="-my-4 ml-8 text-left">and</p>
             <ul>
-                <li><a href="https://creator.nightcafe.studio">NightCafe</a> (<a href="https://photos.app.goo.gl/oW4TgzkZXUtV1u5DA">see what I've made</a>)</li>
+                <li><a href="https://creator.nightcafe.studio">NightCafe</a> (<a href="https://photos.app.goo.gl/oW4TgzkZXUtV1u5DA">see what I&apos;ve made</a>)</li>
             </ul>
-            <p><a href='https://openai.com/dall-e-2/'>Dall-E 2</a> is also worthwhile (<a href="https://photos.app.goo.gl/UpJ9VYx4E2qyB2if9">see?</a>).<br/><br/> Check them out (they are free to try). Use "my" art in whichever way you'd like, credit entirely optional.</p>
+            <p><a href='https://openai.com/dall-e-2/'>Dall-E 2</a> is also worthwhile (<a href="https://photos.app.goo.gl/UpJ9VYx4E2qyB2if9">see?</a>).<br/><br/> Check them out (they are free to try). Use &quot;my&quot; art in whichever way you&apos;d like, credit entirely optional.</p>
         </div>
     );
 }

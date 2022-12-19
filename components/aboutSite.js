@@ -2,7 +2,7 @@ export default function AboutSite() {
     return (
         <div id="aboutSite" className="m-3 p-4 prose dark:prose-invert">
             <h2>About this Site</h2>
-            <p>Welcome to theSunny.one! My name is Sunny, and this is my personal website. It is meant as an introduction to me, and to show a bit of my work. You'll certainly get a sense of my energy just from perusing this page. This site takes advantage of the following technologies built by incredible engineers:</p>
+            <p>Welcome to theSunny.one! My name is Sunny, and this is my personal website. It is meant as an introduction to me, and to show a bit of my work. You&apos;ll certainly get a sense of my energy just from perusing this page. This site takes advantage of the following technologies built by incredible engineers:</p>
             <ul>
                 <li><a href="https://nextjs.org/">Next.JS</a> (for straightforward Web Development!)</li>
                 <li><a href="https://reactjs.org/">React</a> (for modular design!)</li>

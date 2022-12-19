@@ -74,7 +74,7 @@ export default function Landing({ username, darkModeFn, switchSectionFunc }) {
               <div onClick={() => switchSectionFunc('sunnyFacts')} className={hoverLime   + hubLinkClass}>learn about Sunny.</div>
               <div onClick={() => switchSectionFunc('experience')} className={hoverAmber  + hubLinkClass}>see his experience.</div>
               <div onClick={() => switchSectionFunc('funThings')}  className={hoverRose   + hubLinkClass}>try something fun!</div>
-              <div onClick={() => switchSectionFunc('music')}      className={hoverViolet + hubLinkClass}>hear Sunny's music.</div>
+              <div onClick={() => switchSectionFunc('music')}      className={hoverViolet + hubLinkClass}>hear Sunny&apos;s music.</div>
           </div>
         </Box>
         {/* <!-- Divider --> */}

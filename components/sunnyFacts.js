@@ -65,9 +65,9 @@ export default function SunnyFacts() {
         <div id="sunnyFacts" className="prose dark:prose-invert p-2">
             <h2 className="text-2xl">Sunny Facts</h2>
             <p className="p-3">Introducing... the random Sunny fact machine!
-               It's quite simple. There are {facts.length} facts present in its database right now. Just press the button and it will show you three facts at a time.
-               Fortunately for everyone, it won't show you the same facts twice unless you press the reset button. 
-               And please—relax. There's no quiz. My wife made me remove it.</p>
+               It&apos;s quite simple. There are {facts.length} facts present in its database right now. Just press the button and it will show you three facts at a time.
+               Fortunately for everyone, it won&apos;t show you the same facts twice unless you press the reset button. 
+               And please—relax. There&apos;s no quiz. My wife made me remove it.</p>
             <div className="m-4 p-3 border-4 rounded-lg drop-shadow-2xl">
                 <p className="text-lg italic tracking-wide">Sunny...</p>
                 <ul>

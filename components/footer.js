@@ -98,7 +98,7 @@ export default function Footer({ onMobile, darkMode }) {
                     <Image className='mx-auto md:mx-0 md:my-auto w-48 h-48' src={sunnyInCircle} alt='Picture of Sunny' width={150} height={150} />
                 </div>
                 <div className='my-auto'>
-                    <h4 className='ml-3 px-2 text-lg text-center'>Hi, I'm <span className='text-2xl text-amber-500 tracking-wide font-extrabold'>Sunny</span>.</h4>
+                    <h4 className='ml-3 px-2 text-lg text-center'>Hi, I&apos;m <span className='text-2xl text-amber-500 tracking-wide font-extrabold'>Sunny</span>.</h4>
                     <div className='m-2 p-2'>
                         <p className='mx-1 px-2 text-center'>I made this website, and {sillyPhrase}</p>
                         <p className='text-xs text-center'>(One of {sillyPhrases.length} random phrases.)</p>
