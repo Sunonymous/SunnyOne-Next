@@ -11,7 +11,7 @@ export default function AboutSite() {
             </ul>
             <p>The site is fairly simple overall, though it has a variety of unique things. Just to share some of the major points:</p>
             <ul>
-                <li>The site is open source!</li>
+                <li>The site is <a href="https://github.com/Sunonymous/SunnyOne-Next" >open source</a>!</li>
                 <li>Dynamic Greeting
                     <ul>
                         <li>The site can greet you by name (if you want; open the settings).</li>
