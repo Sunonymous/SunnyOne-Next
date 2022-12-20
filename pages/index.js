@@ -46,7 +46,7 @@ export default function Home() {
         <Box hide={activeSection !== 'sunnyFacts'}><SunnyFacts /></Box>
         <Box hide={activeSection !== 'funThings'}><FunThings /></Box>
         <Box hide={activeSection !== 'music'}><Music /></Box>
-        <div className='w-full h-[50%vh] bg-white'></div>
+        <div className='w-full h-[35vh]'></div> {/** Div as in divider! */}
       </div>
       <Footer onMobile={onMobile} />
     </div>
