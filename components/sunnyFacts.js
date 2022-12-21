@@ -75,9 +75,9 @@ export default function SunnyFacts() {
                 </ul>
             </div>
             <div className="flex justify-evenly">
-                <button className="w-40 h-12 border-2 rounded-full text-gray-700 font-semibold bg-gradient-to-b from-zinc-100 hover:from-zinc-200 to-zinc-300"
+                <button className="w-40 h-12 border-2 rounded-full text-gray-700 dark:text-zinc-200 font-semibold bg-gradient-to-b from-zinc-100 dark:from-slate-600 hover:from-zinc-200 dark:hover:from-slate-700 to-zinc-300 dark:to-slate-900"
                         onClick={showNewFacts}>{allFactsSeen() ? 'Useless Button' : 'More Sunny Facts!'}</button>
-                <button className=" w-16 h-12 border hover:border-2 border-red-400 rounded-full text-gray-700 font-semibold bg-gradient-to-b from-zinc-100 hover:from-zinc-200 to-zinc-300"
+                <button className=" w-16 h-12 border hover:border-2 border-red-400 rounded-full text-gray-700 dark:text-zinc-200 font-semibold bg-gradient-to-b from-zinc-100 dark:from-slate-600 hover:from-zinc-200 dark:hover:from-slate-700 to-zinc-300 dark:to-slate-900"
                         onClick={reset}>Reset</button>
             </div> 
         </div>
