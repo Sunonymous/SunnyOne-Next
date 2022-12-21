@@ -18,11 +18,22 @@ const education = {
             '2021 - 2022',
             [
                 'A long-term online school for the fundamentals of Software Engineering and Web Application Development.',
-                (<p>Launch School is a long-term online school with a mastery-based pedagogy. Instead of trying to get you a job quickly or rushing through frameworks or specific use-cases, they build your knowledge from the ground up, only letting you move forward when you can demonstrate that you have mastered the material.</p>),
-                (<p>I enrolled in Launch School because I was fully aware of the limited extent of my knowledge. I wanted to write software and write it well, yet it seemed more and more evident that I was missing certain fundamental ideas. When I read the methodology behind Launch School, I knew I had found what I was looking for. Launch School has a wonderful community, and through the school I have learned how to understand, consider, and solve problems to a degree I had never before imagined.</p>),
+                (<p><a href="https://launchschool.com/">Launch School</a> is a long-term online school with a mastery-based pedagogy. Instead of trying to get you a job quickly or rushing through frameworks or specific use-cases, they build your knowledge from the ground up, only letting you move forward when you can demonstrate that you have mastered the material.</p>),
+                (<p>I enrolled in <a href="https://launchschool.com/">Launch School</a> because I was fully aware of the limited extent of my knowledge. I wanted to write software and write it well, yet it seemed more and more evident that I was missing certain fundamental ideas. When I read the methodology behind Launch School, I knew I had found what I was looking for. Launch School has a wonderful community, and through the school I have learned how to understand, consider, and solve problems to a degree I had never before imagined.</p>),
             ],
         ],
     },
+    humaneTech: {
+        name: 'Center for Humane Technology',
+        details: [
+            '2022',
+            [
+                'Foundations for Humane Technology Course Completion',
+                (<p>The Center for Humane Technology offers a free online course to raise awareness of the dangers and pitfalls of our modern technological world. I completed it!</p>),
+                (<p>Technology has enriched our lives in many ways—so much so that it is difficult to imagine living <em>without</em> so much of our modern amenities. Having such high technology has its privileges, though it comes with sincere risks that are only recently entering the public awareness. I want to build a few applications to help people develop themselves, and this course assisted me in ensuring that I create them in an appropriate and &quot;humane&quot; way. The course is free, and I would encourage anyone to check into it!</p>),
+            ],
+        ],
+    }
 };
 
 const work = {
