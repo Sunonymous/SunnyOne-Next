@@ -33,6 +33,17 @@ const education = {
                 (<p>Technology has enriched our lives in many ways—so much so that it is difficult to imagine living <em>without</em> so much of our modern amenities. Having such high technology has its privileges, though it comes with sincere risks that are only recently entering the public awareness. I want to build a few applications to help people develop themselves, and this course assisted me in ensuring that I create them in an appropriate and &quot;humane&quot; way. The course is free, and I would encourage anyone to check into it!</p>),
             ],
         ],
+    },
+    joyOfReact: {
+        name: 'Joy of React',
+        details: [
+            '2023',
+            [
+                (<p>Earned a completion certificate from Josh W. Comeau's <a href='https://www.joyofreact.com'>The Joy of React</a>. You can <a href="https://courses.joshwcomeau.com/certificate/63e03607ac6ea5d5bec6174d">see the certificate here!</a></p>),
+                (<p>The Joy of React is Josh Comeau's second full-length web application course. I had learned the basics of React on my own, using various resources online. This course helped me to fill in the things that I missed or misunderstood, and I feel even more comfortable creating content using React.</p>),
+                (<p>Josh W. Comeau is a well-rounded and friendly software developer who has made a name for himself creating high-quality educational content. He's released two full-length courses on an educational platform that he wrote himself! This is his second course, fresh off the virtual presses, which focuses on React.JS, and I'm delighted to have taken part. The quality really is fabulous and I deepened my knowledge of the inner mechanisms of React through his instruction. I would encourage anyone who wants to deeply grok React to consider checking out this course.</p>)
+            ]
+        ]
     }
 };
 
