@@ -63,7 +63,7 @@ const work = {
     gap: {
         name: 'Mysterious Employment Gap',
         details: [
-            '2019 - 2021',
+            '2019 - 2022',
             [
                 'International Traveling',
                 (<p>After quitting Guitar Center, I got on a plane to go on an arguably absurd journey into Central America. My Spanish improved, my son was born, I survived my first two hurricanes, and met countless wonderful people throughout the nearly two years I was abroad.</p>),
