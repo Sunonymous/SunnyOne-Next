@@ -9,6 +9,7 @@ import AboutSite       from '../components/aboutSite';
 import FunThings       from '../components/funThings';
 import Experience      from '../components/experience';
 import SunnyFacts      from '../components/sunnyFacts';
+import UselessData     from '../components/animalAdvisor';
 import useDarkMode     from '../lib/darkMode';
 import useDeviceDetect from '../lib/deviceDetect';
 import { useEffect, useState } from 'react';

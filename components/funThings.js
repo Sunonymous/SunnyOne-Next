@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import AnimalAdvisor from "./animalAdvisor";
 
 export default function FunThings() {
     const [sqncr, setSqncr] = useState(null);
@@ -10,11 +11,7 @@ export default function FunThings() {
     return (
         <div className="p-4 prose dark:prose-invert">
             <h2>Fun Things</h2>
-            <h3>Try it Out!</h3>
-            <p>Many of these are listed inside in the experience section, though here they are all gathered into a condensed space for those for whom reading all those details is less useful, ie. <strong>most people</strong>.</p>
-
-            <h3>Projects</h3>
-            <p>Are you a musician? Check out my <a href="https://musicalpractice.tools/">Musical Practice Tools</a>.</p>
+            <AnimalAdvisor />
 
             <h3>SQNCR</h3>
             <p>I made a tiny game using DragonRuby for the <a href="https://itch.io/jam/20-second-game-jam">20 Second Game Jam</a> of 2022! Fortunately, it is the game that lasts 20 seconds, <em>not</em> the jam! Try it in your browser!</p>
