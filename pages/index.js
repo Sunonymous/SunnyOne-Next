@@ -22,7 +22,7 @@ export default function Home() {
   const [activeSection, setActiveSection] = useState('none');
 
   const     updateName =        (name) => setConfig({...config, username: name});
-  const toggleDarkMode =            () => setDarkMode(darkActive);
+  const toggleDarkMode =            () => setDarkMode(!darkActive);
   const  sectionHidden = (someSection) => activeSection === someSection;
 
   const switchSection = (toSection) => {
