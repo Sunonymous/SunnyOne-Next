@@ -68,8 +68,9 @@ export default function AnimalAdvisor() {
 
   useEffect(() => {
     if (imgRef && imgRef.current) {
-      imgRef.current.addEventListener("load", showAdvice);
-      return () => imgRef.current.removeEventListener("load", showAdvice);
+      const currentReference = imgRef.current;
+      currentReference.addEventListener("load", showAdvice);
+      return () => currentReference.removeEventListener("load", showAdvice);
     }
   }, [speaker]);
 
@@ -101,7 +102,7 @@ export default function AnimalAdvisor() {
 
       <div ref={displayRef} className="hidden m-0 p-0">
         <p className="relative top-12 w-2/3 m-0 ml-auto p-3 bg-white border-2 border-gray-500 rounded-xl dark:text-black text-center font-semibold tracking-wide">
-          "{saying}"
+          &ldquo;{saying}&ldquo;
         </p>
         <img
           ref={imgRef}
