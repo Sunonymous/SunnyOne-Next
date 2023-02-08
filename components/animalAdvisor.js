@@ -2,7 +2,7 @@ import { useState, useEffect, useId, useRef } from 'react';
 import { capitalize } from '../lib/helpers';
 
 // shibe offers three choices of animals, which replace the $$$ in the url
-const  shibeEndpoint = 'http://shibe.online/api/$$$?count=1&urls=true&httpsUrls=true'
+const  shibeEndpoint = 'https://shibe.online/api/$$$?count=1&urls=true&httpsUrls=true'
 const adviceEndpoint = 'https://api.adviceslip.com/advice';
 
 // this could go in its own file, though it's only used here...
