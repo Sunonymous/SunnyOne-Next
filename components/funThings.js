@@ -14,7 +14,7 @@ export default function FunThings() {
             <AnimalAdvisor />
 
             <h3>SQNCR</h3>
-            <p>I made a tiny game using DragonRuby for the <a href="https://itch.io/jam/20-second-game-jam">20 Second Game Jam</a> of 2022! Fortunately, it is the game that lasts 20 seconds, <em>not</em> the jam! Try it in your browser to <a href='https://sunonymous.itch.io/sqncr/' target='_blank'>test your attention!</a></p>
+            <p>I made a tiny game using DragonRuby for the <a href="https://itch.io/jam/20-second-game-jam">20 Second Game Jam</a> of 2022! Fortunately, it is the game that lasts 20 seconds, <em>not</em> the jam! Try it in your browser to <a href='https://sunonymous.itch.io/sqncr/' target='_blank' rel="noreferrer">test your attention!</a></p>
             {/* {sqncr} */}
 
             <h3>AI Art</h3>
