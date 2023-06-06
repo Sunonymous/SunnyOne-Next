@@ -4,9 +4,9 @@ import AnimalAdvisor from "./animalAdvisor";
 export default function FunThings() {
     const [sqncr, setSqncr] = useState(null);
 
-    useEffect(() => {
-      setSqncr(<iframe className="mx-auto" frameBorder="0" src="https://itch.io/embed/1785455?border_width=0&amp;bg_color=B2B2B2&amp;fg_color=222222&amp;link_color=ff6120&amp;border_color=8b8b8b" width="206" height="165"><a href="https://sunonymous.itch.io/sqncr">Sqncr by Sunny</a></iframe>);
-    }, []);
+    // useEffect(() => {
+    //   setSqncr(<iframe className="mx-auto" src="https://itch.io/embed/1785455?border_width=0&amp;bg_color=B2B2B2&amp;fg_color=222222&amp;link_color=ff6120&amp;border_color=8b8b8b" width="206" height="165"><a href="https://sunonymous.itch.io/sqncr">Sqncr by Sunny</a></iframe>);
+    // }, [sqncr]);
 
     return (
         <div className="p-4 prose dark:prose-invert">
@@ -14,8 +14,8 @@ export default function FunThings() {
             <AnimalAdvisor />
 
             <h3>SQNCR</h3>
-            <p>I made a tiny game using DragonRuby for the <a href="https://itch.io/jam/20-second-game-jam">20 Second Game Jam</a> of 2022! Fortunately, it is the game that lasts 20 seconds, <em>not</em> the jam! Try it in your browser!</p>
-            {sqncr}
+            <p>I made a tiny game using DragonRuby for the <a href="https://itch.io/jam/20-second-game-jam">20 Second Game Jam</a> of 2022! Fortunately, it is the game that lasts 20 seconds, <em>not</em> the jam! Try it in your browser to <a href='https://sunonymous.itch.io/sqncr/' target='_blank'>test your attention!</a></p>
+            {/* {sqncr} */}
 
             <h3>AI Art</h3>
             <p>This is mostly unrelated to me, but did you know you can make art by typing a prompt into certain online art tools? It&apos;s seriously incredible. My favorites two tools are</p>
