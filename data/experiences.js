@@ -82,18 +82,30 @@ const work = {
             ],
         ],
     },
+    tMobile: {
+        name: 'T-Mobile',
+        details: [
+            '2023 - Now',
+            [
+                'Account Expert',
+                (<p>As of now, I'm working in a call center from T-Mobile. The company has opened my eyes to what a positive and inclusive workplace culture can be. It's really quite impressive! This is a great position to help pay my school debt and tide me over until I find software work.</p>),
+                (<p>After my time at Launch School, I wound up with a sizeable amount of debt and needed to pay it. I had expected to get a software job, though the industry is in a strange state at this time! From what I have been told, even people with impressive amounts of experience are finding it <em>very</em> difficult to get work. At a job fair I discovered T-Mobile, and very quickly found myself immersed in the company and its values, which are eye-opening, to say the least! It has been wonderful to be a part of a company that takes care of both its customers and its employees. I have made efforts to approach moving into a software team inside the company, and even began developing an app to help myself and others in the position I currently hold. Check my experience section for more about that!</p>),
+            ],
+        ],
+    },
 };
 
 const projects = {
-    shiftTacToe: {
-        name: 'Shift-Tac-Toe',
+    flo: {
+        name: 'flo',
         details: [
-            (<p><span>2021</span> | <span>Ruby</span></p>),
-            (<p><a href='https://replit.com/@Sunonymous1/Shift-Tac-Toe#main.rb'>Try it out</a> online via REPLit!</p>),
+            (<p><span>2023</span> | <span>JS, React</span></p>),
+            (<p>This project is <a href="https://github.com/Sunonymous/Flo">Open Source</a>.</p>),
+            (<p><a href='https://callflo.app/'>Track your own calls</a> using its website!</p>),
             [
-                'A new take on an old classic.',
-                (<p>One of the projects made during Launch School. A console Tic-Tac-Toe, presented in an interesting and highly-configurable way, and including a new game mode I made up (because TTT games are too simple!).</p>),
-                (<p>This is a text-based Tic Tac Toe in a console. I made it during the section on Object Oriented Programming in the Launch School curriculum. I found Tic Tac Toe (especially playing it hundreds of times during development) extremely bland. I considered ways of making it more interesting. I improved the visual presentation, making the tiles and marks larger, and allowing the player to change their letter mark (instead of only Xs and Os). There are many more settings I added (you can even watch two computer players compete), though the most interesting addition is a new game mode which I called, 'Shift Tac Toe'. In this, every few turns (also configurable), the board will "shift" all tiles simultaneously in a single direction. This adds a degree of randomness and surprise which can change the tide of a game in a moment. Let it be shouted from the heavens: Tic Tac Toe no longer suffers from the predictable strategies of old! And there was much merriment made, for this was good.<br/><span className="text-xs">The code itself may be a little messy though. That's old work. More a relic than anything else.</span></p>)
+                'An application to track and improve call flow.',
+                (<p>This application, by default, eases the effort required to track certain behaviors which are expected to be done on every call. Effort is being made to make the application extensible for anyone working within any call center to achieve the same result.</p>),
+                (<p>As a rep in a call center, one is constantly doing, more or less, the same thing. The details are always different, though the calls are generally handled in the same way. T-Mobile has spent a lot of effort creating a call flow which works for them and training their employees to use it. Still, I felt a tool could be created to help myself and others keep track of behaviors which have been completed, keep an easier eye on the time spent on calls, and illuminate the areas one could improve. So far, both my colleagues and managers are excited to use this tool. The development has been steady and slow, as I'm only able to do so in my very little free time!</p>)
             ],
         ],
     },
@@ -101,7 +113,7 @@ const projects = {
         name: 'Musical Practice Tools',
         details: [
             (<p><span>Late 2022</span> | <span>JS, Next, React, Tailwind CSS</span></p>),
-            (<p>Try out the tools at <a href="https://musicalpractice.tools/">MusicalPractice.tools</a></p>),
+            (<p>Bolster your practice at <a href="https://musicalpractice.tools/">MusicalPractice.tools</a></p>),
             (<p>This project is <a href="https://github.com/Sunonymous/Musical-Practice-Tools">Open Source</a>.</p>),
             [
                 'A set of tools created for the practice and exploration of instrumentation.',
@@ -114,7 +126,7 @@ const projects = {
         name: 'SQNCR',
         details: [
             (<p><span>November 2022</span> | <span>Ruby</span></p>),
-            (<p>Try the game at <a href='https://sunonymous.itch.io/sqncr/' target='_blank'>Itch.io</a>!</p>),
+            (<p>Test your attention at <a href='https://sunonymous.itch.io/sqncr/' target='_blank'>Itch.io</a>!</p>),
             [
                 'A simple and short relaxed focus trainer.',
                 'A twenty-second game created for the 20 Second Game Jam. This game let you measure and potentially train a state of relaxed focus.',
@@ -126,11 +138,23 @@ const projects = {
         name: 'Compound',
         details: [
             (<p><span>2021</span> | <span>Clojure</span></p>),
-            (<p>Try it out in your browser via <a href="https://replit.com/@Sunonymous1/Compound">REPLit</a>.</p>),
+            (<p>Make your own unique words online via <a href="https://replit.com/@Sunonymous1/Compound">REPLit</a>.</p>),
             [
                 'A mutator of compound words.',
                 'A program written to slightly alter the fragments of a compound word to create a new word.',
                 (<p>This program takes a compound word and mutates (individually) both of its halves by a single letter. I wrote this program because I thought it could be useful to help invent some interesting language. There are some areas which I didn't end up exploring, like substitution of rhymes for single-syllable fragments. Overall, it's a nice entry point into the idea, and good practice for functional programming as well.</p>)
+            ],
+        ],
+    },
+    shiftTacToe: {
+        name: 'Shift-Tac-Toe',
+        details: [
+            (<p><span>2021</span> | <span>Ruby</span></p>),
+            (<p><a href='https://replit.com/@Sunonymous1/Shift-Tac-Toe#main.rb'>Play a few rounds</a> in your browser via REPLit!</p>),
+            [
+                'A new take on an old classic.',
+                (<p>One of the projects made during Launch School. A console Tic-Tac-Toe, presented in an interesting and highly-configurable way, and including a new game mode I made up (because TTT games are too simple!).</p>),
+                (<p>This is a text-based Tic Tac Toe in a console. I made it during the section on Object Oriented Programming in the Launch School curriculum. I found Tic Tac Toe (especially playing it hundreds of times during development) extremely bland. I considered ways of making it more interesting. I improved the visual presentation, making the tiles and marks larger, and allowing the player to change their letter mark (instead of only Xs and Os). There are many more settings I added (you can even watch two computer players compete), though the most interesting addition is a new game mode which I called, 'Shift Tac Toe'. In this, every few turns (also configurable), the board will "shift" all tiles simultaneously in a single direction. This adds a degree of randomness and surprise which can change the tide of a game in a moment. Let it be shouted from the heavens: Tic Tac Toe no longer suffers from the predictable strategies of old! And there was much merriment made, for this was good.<br/><span className="text-xs">The code itself may be a little messy though. That's old work. More a relic than anything else.</span></p>)
             ],
         ],
     },
