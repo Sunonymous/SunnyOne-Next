@@ -22,7 +22,6 @@ export default function NavBar({ nameFunc, closeSectionFunc }) {
             <label htmlFor="username">Greet You?<input className="ml-2 border-2 text-black" name="username" type='text' placeholder="Your Name"  /></label>
             <button className="m-2 p-2 border rounded-lg drop-shadow-md bg-gray-200 text-black"
                     onClick={(e) => {
-                        console.log(`Settings name to ${e.target.value}`);
                         nameFunc(document.querySelector("[name='username']").value)
                     }}>Save</button>
         </div>
