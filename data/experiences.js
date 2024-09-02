@@ -48,26 +48,26 @@ const education = {
 };
 
 const work = {
-    captionCall: {
-        name: 'CaptionCall',
+    bhi: {
+        name: 'BHI',
         details: [
-            (<p><time>2014 - 2018</time> | Meridian, ID; Tucson, AZ</p>),
+            'A couple of months in 2024',
             [
-                'Captioning Agent, Mentor Assistant',
-                (<p>Here I provided a telephone captioning service to customers with hearing loss. For a time, I worked as a mentor, assisting new hire training and helping struggling employees improve their performance.</p>),
-                (<p>Enter CaptionCall. I remember it just like it was {new Date().getFullYear() - 2014} years ago... CaptionCall is a company which provides captioning service for telephone calls. I was one of countless Captioning Agents working the service. I signed a confidentiality agreement, which means that I am legally forbidden to speak of content of any of the calls which I captioned. The work was interesting at times and reasonably dull otherwise. There was a sort of strange initial appeal to listening to people's phone conversations without one side of the conversation knowing (it is explained to the customers during the installation of the phone that the service is made possible by real people who caption the calls, though generally those whom the customers are speaking with are not aware of this). Because of this, I heard plenty of interesting, very <em>human</em>, conversations. Most calls were mundane business, routine conversation, or familial gossip. Others might be strange, confusing, vulgar, or completely unintelligible. The captioners are also forbidden to communicate with the customer through the captions, which led to some interesting situations. My favorite part about the job was that we were allowed to do various things on the computer while we were not on a call. I worked the evening shift, so particularly in the late hours, I had plenty of time to work on various things.<br />Working at CaptionCall indirectly had a large impact on my life. For starters, the option to transfer to the center in Tucson invited my first experience of living on my own. I moved to Tucson having neither family nor friends there, and had plenty of adventures along the way. On a more subtle level, working at CaptionCall developed within me an intense awareness of my own language. I grew fascinated with hearing just how much of what we say and think is derived and recycled from culture. I was still a bit young, and drew from this newfound knowledge a direction of dissension from my culture. I monitored everything I thought and/or said to people and made efforts to detach myself from expressions which I considered negative or ineffective. This is something which continues to this day, as I remain very conscious of the communication around me.</p>),
+                'General Laborer (Renewables) | Orchard, ID',
+                (<p>I was referred to this job by an old friend of mine. This was the first construction job I had experienced. It was quite enjoyable, actually! I wound up having to resign rather quickly, mostly due to pain in my hands.</p>),
+                (<div><p>This job was a surprise. Never before had I even considered working in construction. The pay is more than I would have imagined, and the job helped us out in a time of need for my family. I had very little idea of what to expect, though I found myself surrounded by a whole crew of lovely people! The work out in the desert was peaceful and enjoyable. To me, it felt like something simple to learn yet hard to master, and I continued to explore how to improve my technique. It was evident early on that BHI <em>truly</em> values the health and safety of their employees, and I appreciated that greatly. The most surprising aspect of the job for me was how much Spanish I got to speak. There were certain days where I spoke more Spanish than English!</p><p>I wound up having to leave the job far earlier than I expected, as a result of developing serious pain in the joints of my hands. There were some stresses within the family that influenced the decision as well, though the job could have been sustained longer if it weren't for the pain. No salary can justify destroying my hands. I approached my foreman about it, though it seemed like options for resolution were limited. I left on good terms with everyone there and returned to the shifting landscape of our household.</p></div>),
+
             ],
         ],
-        
     },
-    guitarCenter: {
-        name: 'Guitar Center',
+    tMobile: {
+        name: 'T-Mobile',
         details: [
-            (<p><time>2018 - 2019 | </time>Salt Lake City, UT</p>),
+            '2023 - 2024 | Meridian, ID',
             [
-                'Phone / Chat Sales & Support Rep',
-                (<p>I worked on both the Phone and Chat teams at different times of my employment. Both teams provided sales and support service to incoming customers.</p>),
-                (<p>The circumstances of my life had shifted a lot between working at CaptionCall and Guitar Center, despite being a relatively-short window of time. I had a friend who recommended this job to me (she worked there and thought that I'd do well), so I got the job and moved to Salt Lake City. For the record, this was at one of two call centers for Guitar Center Online, the company's website. I met some wonderful people there, got some incredible deals on musical merchandise (to me, that was the most valuable "perk"), and was reminded once again that <span className="italic tracking-tighter font-bold">sales is a poor choice of department for me</span>. Customer Service I can handle, though sales in particular is less than my forte. I initially worked on the phone team, though they created an online chat team during my time there, and I joined to try it out. I was certainly capable of maneuvering the chats, though I found the experience of handling five-to-six simultaneous conversations to be incredibly uncouth. I switched back to the phone teams as soon as I could.</p>),
+                'Account Expert',
+                (<p>As of now, I'm working in a call center from T-Mobile. The company has opened my eyes to what a positive and inclusive workplace culture can be. It's really quite impressive! This is a great position to help pay my school debt and tide me over until I find software work.</p>),
+                (<p>After my time at Launch School, I wound up with a sizeable amount of debt and needed to pay it. I had expected to get a software job, though the industry is in a strange state at this time! From what I have been told, even people with impressive amounts of experience are finding it <em>very</em> difficult to get work. At a job fair I discovered T-Mobile, and very quickly found myself immersed in the company and its values, which are eye-opening, to say the least! It has been wonderful to be a part of a company that takes care of both its customers and its employees. I have made efforts to approach moving into a software team inside the company, and even began developing an app to help myself and others in the position I currently hold. Check my experience section for more about that!</p>),
             ],
         ],
     },
@@ -82,16 +82,28 @@ const work = {
             ],
         ],
     },
-    tMobile: {
-        name: 'T-Mobile',
+    guitarCenter: {
+        name: 'Guitar Center',
         details: [
-            '2023 - Now',
+            (<p><time>2018 - 2019 | </time>Salt Lake City, UT</p>),
             [
-                'Account Expert',
-                (<p>As of now, I'm working in a call center from T-Mobile. The company has opened my eyes to what a positive and inclusive workplace culture can be. It's really quite impressive! This is a great position to help pay my school debt and tide me over until I find software work.</p>),
-                (<p>After my time at Launch School, I wound up with a sizeable amount of debt and needed to pay it. I had expected to get a software job, though the industry is in a strange state at this time! From what I have been told, even people with impressive amounts of experience are finding it <em>very</em> difficult to get work. At a job fair I discovered T-Mobile, and very quickly found myself immersed in the company and its values, which are eye-opening, to say the least! It has been wonderful to be a part of a company that takes care of both its customers and its employees. I have made efforts to approach moving into a software team inside the company, and even began developing an app to help myself and others in the position I currently hold. Check my experience section for more about that!</p>),
+                'Phone / Chat Sales & Support Rep',
+                (<p>I worked on both the Phone and Chat teams at different times of my employment. Both teams provided sales and support service to incoming customers.</p>),
+                (<p>The circumstances of my life had shifted a lot between working at CaptionCall and Guitar Center, despite being a relatively-short window of time. I had a friend who recommended this job to me (she worked there and thought that I'd do well), so I got the job and moved to Salt Lake City. For the record, this was at one of two call centers for Guitar Center Online, the company's website. I met some wonderful people there, got some incredible deals on musical merchandise (to me, that was the most valuable "perk"), and was reminded once again that <span className="italic tracking-tighter font-bold">sales is a poor choice of department for me</span>. Customer Service I can handle, though sales in particular is less than my forte. I initially worked on the phone team, though they created an online chat team during my time there, and I joined to try it out. I was certainly capable of maneuvering the chats, though I found the experience of handling five-to-six simultaneous conversations to be incredibly uncouth. I switched back to the phone teams as soon as I could.</p>),
             ],
         ],
+    },
+    captionCall: {
+        name: 'CaptionCall',
+        details: [
+            (<p><time>2014 - 2018</time> | Meridian, ID; Tucson, AZ</p>),
+            [
+                'Captioning Agent, Mentor Assistant',
+                (<p>Here I provided a telephone captioning service to customers with hearing loss. For a time, I worked as a mentor, assisting new hire training and helping struggling employees improve their performance.</p>),
+                (<p>Enter CaptionCall. I remember it just like it was {new Date().getFullYear() - 2014} years ago... CaptionCall is a company which provides captioning service for telephone calls. I was one of countless Captioning Agents working the service. I signed a confidentiality agreement, which means that I am legally forbidden to speak of content of any of the calls which I captioned. The work was interesting at times and reasonably dull otherwise. There was a sort of strange initial appeal to listening to people's phone conversations without one side of the conversation knowing (it is explained to the customers during the installation of the phone that the service is made possible by real people who caption the calls, though generally those whom the customers are speaking with are not aware of this). Because of this, I heard plenty of interesting, very <em>human</em>, conversations. Most calls were mundane business, routine conversation, or familial gossip. Others might be strange, confusing, vulgar, or completely unintelligible. The captioners are also forbidden to communicate with the customer through the captions, which led to some interesting situations. My favorite part about the job was that we were allowed to do various things on the computer while we were not on a call. I worked the evening shift, so particularly in the late hours, I had plenty of time to work on various things.<br />Working at CaptionCall indirectly had a large impact on my life. For starters, the option to transfer to the center in Tucson invited my first experience of living on my own. I moved to Tucson having neither family nor friends there, and had plenty of adventures along the way. On a more subtle level, working at CaptionCall developed within me an intense awareness of my own language. I grew fascinated with hearing just how much of what we say and think is derived and recycled from culture. I was still a bit young, and drew from this newfound knowledge a direction of dissension from my culture. I monitored everything I thought and/or said to people and made efforts to detach myself from expressions which I considered negative or ineffective. This is something which continues to this day, as I remain very conscious of the communication around me.</p>),
+            ],
+        ],
+
     },
 };
 
