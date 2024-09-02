@@ -108,11 +108,36 @@ const work = {
 };
 
 const projects = {
+    mpt2: {
+        name: 'Musical Practice Tools 2',
+        details: [
+            (<p><span>2024</span> | <span>Re-frame, ClojureScript, Kushi</span></p>),
+            (<p>Improvise efficiently at <a href="https://musicalpractice.tools/">MusicalPractice.tools</a>.</p>),
+            (<p>This project is <a href="https://github.com/Sunonymous/musical-practice-tools-2">open source</a>.</p>),
+            [
+                'A remake of the original tool, using better tools and a new language.',
+                (<p>Like its predecessor, this web app is designed to further one's ability to practice playing an instrument in an organized way. Its tools include generators for key, expression, sequences, toggled sets, and a metronome which can sync with the generation of any combination of the other tools.</p>),
+                (<p>As we improve as programmers, we can start to see the strengths and weaknesses of our tools. The original version of MPT was written using JavaScript and I've always had a challenging relationship with that language. As I developed further with functional programming and Clojure, I decided to remake this application. It builds upon the same ideas as the original, yet brought together using cleaner code and stronger organization. The result looks and feels far better than the original. I also tried using a new CSS library called Kushi. The developer experience using it is pleasant, though because of certain limitations I am unlikely to use it for future projects.</p>),
+            ],
+        ],
+    },
+    minddrop: {
+        name: 'Minddrop',
+        details: [
+            (<p><span>2024</span> | <span>Re-frame, ClojureScript</span></p>),
+            (<p>Drop your mind with <a href="https://dropyourmind.com/">the prototype</a>.</p>),
+            [
+                'A prototype application for a mental organizer.',
+                (<p>A means to help you navigate a constantly-changing mental landscape, Minddrop is intended as a lightweight tool to replace your working memory for organizing your tasks, intentions, or inspirations.</p>),
+                (<div><p>Many tools used as mental organizers are intended to organize your information, though I see very few tools to organize one's <em>process</em>. This project has gone by multiple names and multiple iterations over the years, and this was the closest I've come so far to something complete. As far as this iteration goes, it is fully functional. It lacks a few features and a lot of quality of life tweaks, though this is because through using this tool, I came to understand the domain better... and learned that this tool can't do what I want it to do! This is good, ultimately, because it's advised me on how to approach the next version of the tool.</p><p>This tool <em>was</em> open source, though I've removed the repository. The code is gnarly and there are better samples of my work. This was, by far, the most complex thing I've made so far.</p></div>),
+            ],
+        ],
+    },
     flo: {
         name: 'flo',
         details: [
             (<p><span>2023</span> | <span>JS, React</span></p>),
-            (<p>This project is <a href="https://github.com/Sunonymous/Flo">Open Source</a>.</p>),
+            (<p>This project is <a href="https://github.com/Sunonymous/Flo">open source</a>.</p>),
             (<p><a href='https://callflo.app/'>Track your own calls</a> using its website!</p>),
             [
                 'An application to track and improve call flow.',
@@ -125,8 +150,8 @@ const projects = {
         name: 'Musical Practice Tools',
         details: [
             (<p><span>Late 2022</span> | <span>JS, Next, React, Tailwind CSS</span></p>),
-            (<p>Bolster your practice at <a href="https://musicalpractice.tools/">MusicalPractice.tools</a></p>),
-            (<p>This project is <a href="https://github.com/Sunonymous/Musical-Practice-Tools">Open Source</a>.</p>),
+            (<p>Bolster your practice at <a href="https://musicalpractice.tools/">MusicalPractice.tools</a> <aside>(Note: this original version is no longer online. See version 2 above.)</aside></p>),
+            (<p>This project is <a href="https://github.com/Sunonymous/Musical-Practice-Tools">open source</a>.</p>),
             [
                 'A set of tools created for the practice and exploration of instrumentation.',
                 (<p>I created a series of tools for an avid instrumentalist to take advantage of to bolster their practice routine. Everything is on a single page, graciously hosted by <a href="https://vercel.com/">Vercel</a>.</p>),
