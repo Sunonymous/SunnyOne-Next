@@ -29,18 +29,24 @@ export default function NavBar({ nameFunc, closeSectionFunc }) {
 
     const barLinks = [
         { link: '#', cb: closeSectionFunc, text: 'Menu'},
-        { cb: openSettings, text: 'Settings'},
+        // removed for likely lack of use
+        // FIXME - remove this at all levels if I ever feel like it. data is drilled via multiple levels for this functionality
+        // { cb: openSettings, text: 'Settings'},
         { link: '#footer', cb: showFooterHint, text: 'Contact'},
     ];
-    
+
+    // TODO a very reasonable UI improvement would be to either conditionally render the menu button, or to add an indicator arrow
+    // to the menu upon clicking the button (exactly like the contact button does, except horizontal)
+    // I would start with the latter approach, for simplicity's sake
     return (
         <React.Fragment>
-            <div id="menuBar" className="h-20 z-30 sticky top-0 bg-gradient-to-t to-zinc-300 from-transparent dark:to-slate-800 flex flex-row justify-around items-center">
+            <div id="menuBar" className="h-20 z-30 sticky top-0 bg-gradient-to-t to-zinc-300 from-transparent dark:to-slate-800 flex flex-row justify-evenly items-center">
                 {barLinks.map((l) => {
                     return <a key={l.link || l.cb} onClick={l.cb || null} href={l.link || null} className={linkClasses}>{l.text}</a>
                 })}
             </div>
-            {settingsOpen && settingsBox}
+            {/* removed for likely lack of use */}
+            {/* {settingsOpen && settingsBox} */}
         </React.Fragment>
     );
 }
