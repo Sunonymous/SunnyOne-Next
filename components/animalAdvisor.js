@@ -1,8 +1,18 @@
 import { useState, useEffect, useId, useRef } from 'react';
 import { capitalize } from '../lib/helpers';
 
-// shibe offers three choices of animals, which replace the $$$ in the url
-const  shibeEndpoint = 'https://shibe.online/api/$$$?count=1&urls=true&httpsUrls=true'
+// update 11/01/24 -- shibe.online api is no longer available, rendering this tool useless... until I found another couple APIs
+// since we're using two APIs, they were combined into a single object which has the endpoints and the property containing the image url
+const animalAPIs = {
+  dog: {
+    endpoint: 'https://random.dog/woof.json?filter=mp4,webm',
+    imageProperty: 'url',
+  },
+  fox: {
+    endpoint: 'https://randomfox.ca/floof/',
+    imageProperty: 'image',
+  }
+};
 const adviceEndpoint = 'https://api.adviceslip.com/advice';
 
 // this could go in its own file, though it's only used here...
@@ -33,7 +43,7 @@ export default function AnimalAdvisor() {
   const [speaker, setSpeaker] = useState(null);
   const   [saying, setSaying] = useState(null);
   const   [status, setStatus] = useState("idle");   // idle | loading | success | error | rendered
-  const   [animal, setAnimal] = useState('shibes'); // shibes | cats | birds
+  const   [animal, setAnimal] = useState('dog');    // dog | fox
 
   const     imgRef = useRef();
   const displayRef = useRef();
@@ -45,18 +55,18 @@ export default function AnimalAdvisor() {
     hideAdvice();
     setStatus("loading");
 
-    const  shibeResponse = await fetch(shibeEndpoint.replace('$$$', animal));
-    const adviceResponse = await fetch(adviceEndpoint);
+    const randomAnimalResponse = await fetch(animalAPIs[animal].endpoint);
+    const       adviceResponse = await fetch(adviceEndpoint);
 
-    if (!shibeResponse.ok || !adviceResponse.ok) {
+    if (!randomAnimalResponse.ok || !adviceResponse.ok) {
       setStatus("error");
       return;
     }
 
-    const  shibeJson = await shibeResponse.json();
-    const adviceJson = await adviceResponse.json();
+    const randomAnimalJson = await randomAnimalResponse.json();
+    const       adviceJson = await adviceResponse.json();
     setSaying(adviceJson.slip.advice);
-    setSpeaker(shibeJson[0]); // API returns an array
+    setSpeaker(randomAnimalJson[animalAPIs[animal].imageProperty]);
     setStatus("success");
   }
 
@@ -86,9 +96,8 @@ export default function AnimalAdvisor() {
               value={animal}
               onChange={(e) => setAnimal(e.target.value)}
             >
-              <option value="shibes">Dog</option>
-              <option value="cats"  >Cat</option>
-              <option value="birds" >Bird</option>
+              <option value="dog">Dog</option>
+              <option value="fox">Fox</option>
             </select>
           </form>
         )}
